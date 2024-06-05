@@ -6,7 +6,7 @@ import { Badge } from "./ui/badge"
 
 const ProjectCard = ({project}) => {
   return (
-    <Card className='group overflow-hidden relative'>
+    <Card className='group overflow-hidden relative w-full sm:w-[392px] sm:h-[494px]' >
       <CardHeader className='p-0'>
         {/* image */}
         <div className="relative w-full h-[300px] flex items-center justify-center bg-tertiary dark:bg-secondary/40 xl:bg-work_project_bg_light xl:dark:bg-work_project_bg_dark
@@ -14,8 +14,8 @@ const ProjectCard = ({project}) => {
           <Image
           className="absolute button-0 shadow-2xl"
           src={project.image}
-          width={247}
-          height={250}
+          width={267}
+          height={270}
           alt=""
           priority/>
           <div className="flex gap-x-4">

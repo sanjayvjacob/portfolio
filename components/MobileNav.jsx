@@ -1,29 +1,46 @@
+import Link from 'next/link'
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
 import { AlignJustify } from 'lucide-react'
-import Link from 'next/link'
-import Nav from './Nav'
-import Socials from './Socials'
+import { usePathname } from "next/navigation"
+
+const links = [
+  {
+    name: 'home',
+    path: '/'
+  },
+  {
+    name: 'projects',
+    path: '/projects'
+  },
+  {
+    name: 'contact',
+    path: '/contact'
+  },
+]
 
 const MobileNav = () => {
+  const pathname = usePathname()
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <AlignJustify className='cursor-pointer'/>
+        <AlignJustify className='cursor-pointer text-primary'/>
       </SheetTrigger>
-      <SheetContent>
-        <div className='flex flex-col items-center justify-between h-full py-8'>
-          <div className='flex flex-col items-center gap-y-32'>
-          <Link href="/">
-          <h1 className='text-4xl font-semibold'>SanjayJacob<span className='text-accent'>.</span></h1>
-        </Link>
-        <Nav 
-        containerStyles='flex flex-col items-center gap-y-6'
-        linkStyles='text-2xl'
-        />
-          </div>
-        <Socials 
-        containerStyles='flex gap-x-4' iconStyles='text-2xl'/>
-        </div>
+      <SheetContent className='flex flex-col'>
+      <div className="mt-32 mb-40 text-center text-2xl"><Link href="/">
+          <h1 className="text-4xl font-semibold">
+            SanjayJacob<span className="text-primary">.</span></h1></Link></div>
+        <nav className="flex flex-col justify-center items-center gap-8">
+          {links.map((link,index)=>{
+            return (
+            <Link 
+            href={link.path} 
+            key={index} 
+            className={`${link.path === pathname && "text-primary border-b-2 border-primary"}text-xl capitalize hover:text-primary transition-all`}>{link.name}</Link>
+          )
+          })}
+        </nav>
+        {/* <Socials 
+        containerStyles='flex gap-x-4' iconStyles='text-2xl'/> */}
       </SheetContent>
     </Sheet>
   )

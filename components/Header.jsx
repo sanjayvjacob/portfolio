@@ -18,19 +18,19 @@ const Header = () => {
     <header
     className={`${
       header 
-      ? 'py-4 bg-white shadow-lg dark:bg-accent' 
+      ? 'py-4 bg-[#D9F2E6] shadow-lg dark:bg-accent' 
       : 'py-6 dark:bg-transparent'
-    } sticky top-0 z-30 transition-all ${pathname === '/' && 'bg-[#fef9f5]'}`}
+    } sticky top-0 z-30 transition-all ${pathname === '/' && 'bg-[#D9F2E6]'}`}
     >
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
         <Link href="/">
-          <h1 className='text-4xl font-semibold'>SanjayJacob<span className='text-accent'>.</span></h1>
+          <h1 className='text-2xl md:text-3xl lg:text-4xl font-semibold'>SanjayJacob<span className='text-primary'>.</span></h1>
         </Link>
         <div className="flex items-center gap-x-6">
           <Nav 
           containerStyles='hidden xl:flex gap-x-8 items-center'
-          linkStyles='relative hover:text-primary transition-all'
+          linkStyles='relative hover:text-primary transition-all text-xl'
           underlineStyles='absolute left-0 top-full h-[2px] bg-primary w-full'/>
         <ThemeToggler/>
         <div className="xl:hidden">
