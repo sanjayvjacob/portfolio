@@ -14,7 +14,7 @@ const Contact = () => {
           I'm currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
         </div>
         {/* form */}
-        <div className="flex items-center justify-center xl:justify-start w-full mt-12 ">
+        <div className="flex items-center justify-center xl:justify-start w-full mt-4 xl:mt-12">
         <div className="w-full max-w-md"><Form/></div>
         </div>
         </div>
