@@ -75,7 +75,7 @@ const About = () => {
                 <TabsContent value='personal'>
                   <div className="text-center xl:text-left">
                     <p className="subtitle max-w-xl max-auto xl:max-0 text-justify">I'm a self-taught front-end developer who is passionate about building dynamic websites and applications. I have a strong preference for easy to use, intuitive UX/UI with fast loading times being one of my highest priorities. I'm constantly learning and experimenting with new technologies to stay updated in this ever-evolving field.<br /><br />
-                    Bringing designs to life using React, Next.js is what I do best. I enjoy the process of translating static designs into dynamic and responsive websites that not only look great but also function flawlessly across various devices.
+                    Bringing designs to life using React, Next.js is what I do best. I enjoy the process of translating static designs into dynamic and responsive websites.
               </p>
                   </div>
                 </TabsContent>
