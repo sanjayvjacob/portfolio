@@ -9,12 +9,12 @@ import DevImg from "./DevImg";
 
 const Hero = () => {
   return (
-    <section className="py-12 xl:py-24 h-full xl:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
+    <section className="py-10 xl:py-22 h-full xl:pt-26 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
     <div className="container mx-auto">
       <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
         <div className="order-2 xl:order-none text-center xl:text-left">
         <h1 className="h1 mb-4">Hello, I'm<br /><span className="text-primary">Sanjay Jacob</span></h1>
-        <p className="subtitle max-w-[490px] mx-auto xl:mx-0"><span className="text-primary">Front-end Developer</span> | Passionate about crafting elegant solutions to complex problems.</p>
+        <p className="subtitle max-w-[490px] mx-auto xl:mx-0"><span className="text-primary font-bold">Front-end Developer</span> | Passionate about crafting elegant solutions to complex problems.</p>
         {/* Buttons */}
         <div className="flex gap-y-3 gap-x-3 mx-auto xl:mx-0 mb-12 justify-center md:justify-start">
           <Link href='/contact'>
@@ -33,7 +33,6 @@ const Hero = () => {
         </div>
         {/* Image */}
         <div className="order-1 xl:order-none mb-8 xl:mb-0">
-          {/* <div className="w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div> */}
           <DevImg 
           containerStyles='bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom'
           imgSrc='/hero/developer.png'
