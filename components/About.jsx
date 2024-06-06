@@ -82,7 +82,7 @@ const About = () => {
                 {/* skills */}
                 <TabsContent value='skills'>
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-8">Tools I use</h3>
+                    <h4 className="h4 mb-8">Tools I use</h4>
                     <div>
                       {/* tools */}
                       <div className="flex gap-x-3 justify-center xl:justify-start">
