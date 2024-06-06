@@ -15,7 +15,7 @@ const Work = () => {
   return (
     <section className="relative mb-12 xl:mb-48">
       <div className="container mx-auto">
-        <div className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center">
+        <div className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center ">
          <h2 className="section-title mb-4">Latest Projects</h2>
           <p className="subtitle mb-8">View all of my completed work here</p>
           <Link href='/projects'>
@@ -27,7 +27,7 @@ const Work = () => {
           {/* slider */}
           <div className="xl:max-w-[900px] xl:absolute right-0 top-0">
             <Swiper 
-            className="h-[480px] bg-secondary"
+            className="h-[480px] bg-[#D9F2E6] dark:bg-secondary rounded-md"
             slidesPerView={1}
             breakpoints={{
               640: {

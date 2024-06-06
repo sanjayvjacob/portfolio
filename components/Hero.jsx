@@ -14,9 +14,9 @@ const Hero = () => {
       <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
         <div className="order-2 xl:order-none text-center xl:text-left">
         <h1 className="h1 mb-4">Hello, I'm<br /><span className="text-primary">Sanjay Jacob</span></h1>
-        <p className="subtitle max-w-[490px] mx-auto xl:mx-0"><span className="text-primary">Full Stack Developer</span> | Passionate about crafting elegant solutions to complex problems.</p>
+        <p className="subtitle max-w-[490px] mx-auto xl:mx-0"><span className="text-primary">Front-end Developer</span> | Passionate about crafting elegant solutions to complex problems.</p>
         {/* Buttons */}
-        <div className="flex  gap-y-3 gap-x-3 mx-auto xl:mx-0 mb-12 justify-center md:justify-start">
+        <div className="flex gap-y-3 gap-x-3 mx-auto xl:mx-0 mb-12 justify-center md:justify-start">
           <Link href='/contact'>
             <Button className="gap-x-2">Contact me<Send send={18}/>
             </Button>

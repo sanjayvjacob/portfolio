@@ -81,7 +81,7 @@
   }
 
   .subtitle {
-    @apply text-muted-foreground text-lg mb-8 font-light;
+    @apply text-muted-foreground text-base md:text-base lg:text-lg xl:text-xl mb-8 font-light;
   }
 
   .section-title {
