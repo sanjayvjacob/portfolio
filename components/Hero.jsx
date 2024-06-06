@@ -22,7 +22,7 @@ const Hero = () => {
             </Button>
           </Link >
           <Link href="/cv.pdf" target="_blank" rel="noopener noreferrer">
-          <Button variant='secondary' className="gap-x-2">Download CV<Download send={18}/>
+          <Button variant='secondary' className="gap-x-2 border-2 border-primary">Download CV<Download send={18}/>
           </Button>
           </Link>
         </div>
