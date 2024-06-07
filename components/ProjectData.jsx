@@ -17,7 +17,7 @@ const projectData = [
   },
   {
     name: "Connect",
-    description: "Connect is a Realtime Chat app build with React allows users to communicate with each other instantly over the internet.",
+    description: "Connect is a Realtime Chat app that allow users to send and receive messages in real-time over the internet without any app refresh.",
     category: 'react js',
     link: "https://connect-react-client.vercel.app/",
     github: "https://github.com/sanjayvjacob/Connect-react.git",
