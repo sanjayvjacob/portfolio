@@ -1,7 +1,7 @@
 const projectData = [
   {
     name: "UrbanAttire",
-    description: "UrbanAttire is a dynamic and trendy React-based e-commerce website, designed to cater to the fashion-forward urban dwellers.",
+    description: "UrbanAttire is a dynamic and trendy React-based e-commerce website, designed to cater to fashion-forward urban dwellers.",
     category: 'react js',
     link: "https://urban-attire-react.vercel.app/",
     github: "https://github.com/sanjayvjacob/UrbanAttire-react.git",
@@ -17,7 +17,7 @@ const projectData = [
   },
   {
     name: "Connect",
-    description: "Connect is a Realtime Chat app that allow users to send and receive messages in real-time over the internet without any app refresh.",
+    description: "Connect is a real-time chat app allowing users to send and receive messages over the internet without any app refresh.",
     category: 'react js',
     link: "https://connect-react-client.vercel.app/",
     github: "https://github.com/sanjayvjacob/Connect-react.git",
