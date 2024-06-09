@@ -6,7 +6,7 @@ import emailjs from '@emailjs/browser';
 import { Button } from "./ui/button"
 import { Input } from "./ui/input"
 import { Textarea } from "./ui/textarea"
-import { User, MailIcon, ArrowRightIcon, MessageSquare } from "lucide-react"
+import { User, Mail, ArrowRight, MessageSquare } from "lucide-react"
 
 const Form = () => {
   const formRef = useRef();
@@ -20,9 +20,11 @@ const Form = () => {
       .sendForm('service_v3uuu28', 'template_x0vt4kr', formRef.current, {
         publicKey: 'tQDCnVzudAFJx2gFc',
       })
-      .then((result) => {
+      .then(
+        (result) => {
           setSuccess(true);
-        },(error) => {
+        },
+        (error) => {
           setError(true);
         },
       );
@@ -33,20 +35,20 @@ const Form = () => {
       {/* input */}
       <div className="relative flex items-center">
         <Input type='text' id='name' placeholder='Name' name="name" className='border border-solid border-primary p-4'/>
-        <User className="absolute right-6 size={28}"/>
+        <User className="absolute right-6"/>
       </div>
       {/* input */}
       <div className="relative flex items-center">
         <Input type='email' id='email' placeholder='Email' name="email" className='border border-solid border-primary p-4'/>
-        <MailIcon className="absolute right-6 size={28}"/>
+        <Mail className="absolute right-6"/>
       </div>
       {/* input */}
       <div className="relative flex items-center">
         <Textarea placeholder='Message' name="message" className='border border-solid border-primary p-4'/>
-        <MessageSquare className="absolute top-4 right-6 size={28}"/>
+        <MessageSquare className="absolute top-4 right-6"/>
       </div>
       <Button className='flex items-center gap-x-1 max-w-[166px]'>Send
-      <ArrowRightIcon size={20}/></Button>
+      <ArrowRight size={20}/></Button>
       {error && "Error"}
       {success && "Success"}
     </form>
