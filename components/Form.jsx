@@ -1,7 +1,6 @@
 'use client'
 
 import React, {useRef, useState} from 'react'
-import Link from 'next/link'
 import emailjs from '@emailjs/browser';
 import { Button } from "./ui/button"
 import { Input } from "./ui/input"
@@ -9,7 +8,7 @@ import { Textarea } from "./ui/textarea"
 import { User, Mail, ArrowRight, MessageSquare } from "lucide-react"
 
 const Form = () => {
-  const formRef = useRef();
+  const formRef = useRef(null);
   const [error, setError] = useState(false)
   const [success, setSuccess] = useState(false)
 
@@ -23,9 +22,14 @@ const Form = () => {
       .then(
         (result) => {
           setSuccess(true);
+          setError(false); // Reset error state
+          formRef.current.reset(); // Clear the form fields
+          setTimeout(() => setSuccess(false), 3000); // Reset success message after 3 seconds
         },
         (error) => {
           setError(true);
+          setSuccess(false); // Reset error state
+          setTimeout(() => setError(false), 3000); // Reset error message after 3 seconds
         },
       );
   };
