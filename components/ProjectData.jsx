@@ -16,20 +16,20 @@ const projectData = [
     image: '/work/hotely.png'
   },
   {
-    name: "Connect",
-    description: "Connect is a real-time chat app allowing users to send and receive messages over the internet without any app refresh.",
-    category: 'react js',
-    link: "https://connect-react-client.vercel.app/",
-    github: "https://github.com/sanjayvjacob/Connect-react.git",
-    image: '/work/connect.png'
-  },
-  {
     name: "Express Pizza",
     description: "Express Pizza is a dynamic and user-friendly online platform developed using React, designed to streamline the pizza ordering process for customers.",
     category: 'react js',
     link: "https://sanjayvjacob.github.io/express-pizza-react/",
     github: "https://github.com/sanjayvjacob/express-pizza-react.git",
     image: '/work/expresspizza.png'
+  },
+  {
+    name: "Connect",
+    description: "Connect is a real-time chat app allowing users to send and receive messages over the internet without any app refresh.",
+    category: 'react js',
+    link: "https://connect-react-client.vercel.app/",
+    github: "https://github.com/sanjayvjacob/Connect-react.git",
+    image: '/work/connect.png'
   },
   {
     name: "Tesla Clone",
