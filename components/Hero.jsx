@@ -10,11 +10,11 @@ const Hero = () => {
     <div className="container mx-auto">
       <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
         <div className="order-2 xl:order-none text-center xl:text-left">
-        <h1 className="h1 mb-4">Hello, I'm<br /><span className="text-primary">Sanjay Jacob</span></h1>
+        <h1 className="h1 mb-6">Hello, I'm<br /><span className="text-primary">Sanjay Jacob</span></h1>
         <p className="subtitle max-w-[490px] mx-auto xl:mx-0 mb-4"><span className="text-primary font-bold">Front-end Developer</span> | Passionate about designing intuitive web interfaces and developing user-friendly web applications.</p>
 
         {/* Button & Socials*/}
-        <div className="flex flex-col items-center justify-start xl:flex-row gap-y-3 gap-x-3 mx-auto xl:mx-0 mb-12">
+        <div className="flex flex-col items-center justify-start xl:flex-row gap-y-3 gap-x-3 mx-auto xl:mx-0">
               <Link href="/cv.pdf" target="_blank" rel="noopener noreferrer">
                 <Button className="border-2 border-background text-background text-lg" size="sm">CV<RiDownloadLine /></Button>
               </Link>
