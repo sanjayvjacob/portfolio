@@ -2,9 +2,9 @@
 
 import {
   RiTwitterXFill,
-  RiLinkedinFill,
+  RiLinkedinBoxFill,
   RiGithubFill,
-  RiInstagramFill,
+  RiMailLine,
 } from 'react-icons/ri'
 
 import Link from 'next/link'
@@ -16,15 +16,11 @@ const icons = [
   },
   {
     path: 'https://linkedin.com/in/sanjayvjacob',
-    name: <RiLinkedinFill/>,
+    name: <RiLinkedinBoxFill/>,
   },
   {
     path: 'https://twitter.com/sanjayvjacob',
     name: <RiTwitterXFill/>,
-  },
-  {
-    path: 'https://instagram.com/sanjayvjacob',
-    name: <RiInstagramFill/>,
   },
 ]
 
@@ -38,6 +34,7 @@ const Socials = ({containerStyles, iconStyles}) => {
           </Link>
         )
       })}
+      <Link href='/contact'><div className={`${iconStyles}`}><RiMailLine /></div></Link>
     </div>
   )
 }

@@ -2,13 +2,13 @@ import Socials from "./Socials"
 
 const Footer = () => {
   return (
-    <footer className="bg-[#D9F2E6] dark:bg-secondary py-12">
+    <footer className="bg-[#B3E5CD] dark:bg-secondary py-12">
       <div className="container mx-auto">
         <div className="flex flex-col items-center justify-between">
           {/* Socials */}
           <Socials
           containerStyles='flex gap-x-6 mx-auto xl:mx-0 mb-4'
-          iconStyles='text-primary dark:text-white/70 text-[20px] hover:text-white dark:hover:text-primary transition-all'
+          iconStyles='text-primary dark:text-white/70 text-[25px] hover:text-white dark:hover:text-primary transition-all'
           />
           {/* copyright */}
           <div className="text-muted-foreground">

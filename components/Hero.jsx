@@ -1,9 +1,6 @@
 import Link from "next/link"
 import { Button } from "./ui/button"
-import { Download, Send } from "lucide-react"
-
-import { RiArrowDownSLine } from 'react-icons/ri';
-
+import { RiArrowDownSLine, RiDownloadLine } from 'react-icons/ri';
 import Socials from "./Socials";
 import DevImg from "./DevImg";
 
@@ -14,22 +11,19 @@ const Hero = () => {
       <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
         <div className="order-2 xl:order-none text-center xl:text-left">
         <h1 className="h1 mb-4">Hello, I'm<br /><span className="text-primary">Sanjay Jacob</span></h1>
-        <p className="subtitle max-w-[490px] mx-auto xl:mx-0"><span className="text-primary font-bold">Front-end Developer</span> | Passionate about crafting elegant solutions to complex problems.</p>
-        {/* Buttons */}
-        <div className="flex gap-y-3 gap-x-3 mx-auto xl:mx-0 mb-12 justify-center md:justify-start">
-          <Link href='/contact'>
-            <Button className="gap-x-2">Contact me<Send send={18}/>
-            </Button>
-          </Link >
-          <Link href="/cv.pdf" target="_blank" rel="noopener noreferrer">
-          <Button variant='secondary' className="gap-x-2 border-2 border-primary">Download CV<Download send={18}/>
-          </Button>
-          </Link>
-        </div>
-        {/* Socials */}
-        <Socials 
-        containerStyles='flex gap-x-6 mx-auto xl:mx-0 justify-center md:justify-start'
-        iconStyles='text-foreground text-[26px] hover:text-primary transition-all'/>
+        <p className="subtitle max-w-[490px] mx-auto xl:mx-0 mb-4"><span className="text-primary font-bold">Front-end Developer</span> | Passionate about designing intuitive web interfaces and developing user-friendly web applications.</p>
+
+        {/* Button & Socials*/}
+        <div className="flex flex-col items-center justify-start xl:flex-row gap-y-3 gap-x-3 mx-auto xl:mx-0 mb-12">
+              <Link href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+                <Button className="border-2 border-background text-background text-lg" size="sm">CV<RiDownloadLine /></Button>
+              </Link>
+              <Socials 
+                containerStyles='flex gap-x-4 justify-center md:justify-start'
+                iconStyles='text-primary text-[30px] hover:text-foreground transition-all'
+              />
+            </div>
+        
         </div>
         {/* Image */}
         <div className="order-1 xl:order-none mb-8 xl:mb-0">
