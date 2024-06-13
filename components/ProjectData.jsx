@@ -19,7 +19,7 @@ const projectData = [
     name: "Express Pizza",
     description: "Express Pizza is a dynamic and user-friendly online platform developed using React, designed to streamline the pizza ordering process for customers.",
     category: 'react js',
-    link: "https://sanjayvjacob.github.io/express-pizza-react/",
+    link: "https://express-pizza-react.vercel.app/",
     github: "https://github.com/sanjayvjacob/express-pizza-react.git",
     image: '/work/expresspizza.png'
   },
@@ -35,7 +35,7 @@ const projectData = [
     name: "Tesla Clone",
     description: "Tesla website homepage clone aims to replicate the look and functionality of the official Tesla website homepage.",
     category: 'JavaScript',
-    link: "https://sanjayvjacob.github.io/tesla-clone-js/",
+    link: "https://tesla-clone-js.vercel.app/",
     github: "https://github.com/sanjayvjacob/tesla-clone-js.git",
     image: '/work/tesla.png'
   },

@@ -24,7 +24,7 @@ const MobileNav = () => {
   return (
     <Sheet>
       <SheetTrigger className="flex justify-center items-center">
-        <AlignJustify className='cursor-pointer text-primary'/>
+        <AlignJustify className='cursor-pointer text-primary' size={30}/>
       </SheetTrigger>
       <SheetContent className='flex flex-col justify-between h-full'>
         <div>
