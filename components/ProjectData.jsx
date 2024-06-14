@@ -16,6 +16,14 @@ const projectData = [
     image: '/work/hotely.png'
   },
   {
+    name: "Boost",
+    description: "Boost is a premier agency website designed to help companies expand their business through world-class solutions.",
+    category: 'JavaScript',
+    link: "https://boost-js-sass.vercel.app/",
+    github: "https://github.com/sanjayvjacob/boost-js-sass.git",
+    image: '/work/agency.png'
+  },
+  {
     name: "Express Pizza",
     description: "Express Pizza is a dynamic and user-friendly online platform developed using React, designed to streamline the pizza ordering process for customers.",
     category: 'react js',
