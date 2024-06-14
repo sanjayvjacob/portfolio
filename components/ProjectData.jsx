@@ -16,12 +16,12 @@ const projectData = [
     image: '/work/hotely.png'
   },
   {
-    name: "Boost",
-    description: "Boost is a premier agency website designed to help companies expand their business through world-class solutions.",
+    name: "Ascend Strategies",
+    description: "Ascend Strategies is a premier agency website designed to help companies expand their business through world-class solutions.",
     category: 'JavaScript',
-    link: "https://boost-js-sass.vercel.app/",
+    link: "https://ascendstrategies-js.vercel.app/",
     github: "https://github.com/sanjayvjacob/boost-js-sass.git",
-    image: '/work/agency.png'
+    image: '/work/ascendstrategies.png'
   },
   {
     name: "Express Pizza",
