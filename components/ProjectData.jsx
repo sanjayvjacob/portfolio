@@ -40,8 +40,8 @@ const projectData = [
     image: '/work/connect.png'
   },
   {
-    name: "Tesla Clone",
-    description: "Tesla website homepage clone aims to replicate the look and functionality of the official Tesla website homepage.",
+    name: "Tesla Website Clone",
+    description: "Tesla website Clone will replicate the look and feel of the Tesla website's homepage, including its layout, design elements, and some interactivity.",
     category: 'JavaScript',
     link: "https://tesla-clone-js.vercel.app/",
     github: "https://github.com/sanjayvjacob/tesla-clone-js.git",
