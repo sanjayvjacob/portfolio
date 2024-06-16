@@ -18,7 +18,10 @@ const Footer = () => {
           &copy; 2024 Sanjay Jacob  <span className="ml-2">•</span>
           <span className="relative inline-block hover:text-[#53c28b] group ml-3">
           Colophon
-          <span className="invisible w-[269px] bg-[#bbb] text-[#111] text-left rounded-[5px] p-[15px_25px] absolute z-10 bottom-[125%] left-1/2 transform -translate-x-1/2 opacity-0 transition-opacity duration-300 text-[16px] leading-[1.5] group-hover:visible group-hover:opacity-100">
+          <span className="invisible w-[270px] bg-[#bbb] text-[#111] text-left rounded-[5px] p-[15px_25px] absolute z-10 bottom-[125%] 
+          xl:left-full xl:transform xl:translate-x-[-15px] 
+          right-full transform -translate-x-[-80px]
+          opacity-0 transition-opacity duration-300 text-[16px] leading-[1.5] group-hover:visible group-hover:opacity-100">
           <div className="flex items-center mb-1">
           <RiNextjsFill className="mr-[10px] text-[25px]"/>NextJS for code</div>
           <div className="flex items-center mb-1">
@@ -26,7 +29,7 @@ const Footer = () => {
           <div className="flex items-center mb-1">
           <SiFramer className="mr-[15px] text-[20px]"/>Framer for animation</div>
           <div className="flex items-center mb-1">
-          <SiShadcnui className="mr-[15px] text-[17px]"/>Shadcn UI for components</div>
+          <SiShadcnui className="mr-[16px] text-[17px]"/>Shadcn UI for components</div>
           <div className="flex items-center mb-1">
           <RiGithubFill className="mr-[10px] text-[25px]"/>GitHub for versions</div>
           <div className="flex items-center">
