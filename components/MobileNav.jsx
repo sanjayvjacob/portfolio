@@ -31,7 +31,7 @@ const MobileNav = () => {
       <div className="mt-32 mb-40 text-center text-2xl">
         <Link href="/">
           <h1 className="text-4xl font-semibold">
-            SanjayJacob<span className="text-primary">.</span></h1>
+            SJ<span className="text-primary">.</span></h1>
             </Link>
             </div>
         <nav className="flex flex-col justify-center items-center gap-8">

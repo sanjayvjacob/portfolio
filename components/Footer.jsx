@@ -7,14 +7,14 @@ const Footer = () => {
   return (
     <footer className="bg-accent dark:bg-secondary py-12">
       <div className="container mx-auto">
-        <div className="flex flex-col items-center justify-between">
+        <div className="flex xl:flex-row-reverse flex-col items-center justify-between">
           {/* Socials */}
           <Socials
           containerStyles='flex gap-x-6 mx-auto xl:mx-0 mb-4'
           iconStyles='text-primary dark:text-white/70 text-[25px] hover:text-white dark:hover:text-primary transition-all'
           />
           {/* copyright */}
-          <div className="text-muted-foreground">
+          <div className="text-muted-foreground xl:text-[20px]">
           &copy; 2024 Sanjay Jacob  <span className="ml-2">•</span>
           <span className="relative inline-block hover:text-[#53c28b] group ml-3">
           Colophon
