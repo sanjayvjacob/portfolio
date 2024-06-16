@@ -20,7 +20,7 @@ const Hero = () => {
               </Link>
               <Socials 
                 containerStyles='flex gap-x-4 justify-center md:justify-start'
-                iconStyles='text-primary text-[30px] hover:text-foreground transition-all'
+                iconStyles='text-primary text-[37px] hover:text-foreground transition-all'
               />
             </div>
         
