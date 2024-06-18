@@ -55,7 +55,7 @@ const About = () => {
           <div className="flex-1">
           <p className="subtitle max-w-xl mx-auto xl:max-0 text-justify">Hi, I'm Sanjay. I hail from London. I have a background in Web Development, Finance and Business. My path in Front-End Web Development came from wanting the freedom to channel my technical capabilities into a more creative, lasting and practical form. <br /><br />  I'm constantly learning and experimenting with new technologies to stay updated in this ever-evolving field. Bringing designs to life using React, Next.js is what I do best. I enjoy the process of translating static designs into dynamic and responsive websites.</p>
           <div className="flex gap-x-3 justify-center xl:justify-start">
-          <p className="xl:text-2xl text-[20px] mr-1 dark:text-white/70">Tech Stack | </p>
+          <p className="hidden xl:block xl:text-2xl xl:mr-1 dark:text-white/70">Tech Stack | </p>
                        {getData(skillData, 'tools').data.map((item, index)=>{
                           const {imgPath} = item;
                           return <div key={index}>
