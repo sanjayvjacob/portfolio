@@ -9,6 +9,10 @@ const skillData = [
     name: "JavaScript" 
   },
   { 
+    imgPath: "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg", 
+    name: "TypeScript" 
+  },
+  { 
     imgPath: "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg", 
     name: "React" 
   },
