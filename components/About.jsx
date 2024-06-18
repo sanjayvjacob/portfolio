@@ -29,12 +29,16 @@ const skillData = [
     name: "Tailwind CSS" 
   },
   { 
+    imgPath: "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg", 
+    name: "Bootstrap" 
+  },
+  { 
     imgPath: "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg", 
     name: "Node.js" 
   },
   { 
-    imgPath: "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored-dark.svg", 
-    name: "Express.js" 
+    imgPath: "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg", 
+    name: "Git" 
   },
 ];
 
