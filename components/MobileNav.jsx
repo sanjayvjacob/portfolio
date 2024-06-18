@@ -48,7 +48,9 @@ const MobileNav = () => {
         </nav>
         </div>
         <div className="mb-8">
-          <Socials containerStyles='flex gap-x-4 justify-center' iconStyles='text-2xl'/>
+          <Socials 
+          containerStyles='flex gap-x-4 justify-center' 
+          iconStyles='text-primary dark:text-white/70 text-[25px] hover:text-white dark:hover:text-primary transition-all'/>
         </div>
       </SheetContent>
     </Sheet>
