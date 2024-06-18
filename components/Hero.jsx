@@ -18,9 +18,9 @@ const Hero = () => {
               <Button className="border-2 border-background text-background text-lg dark:bg-white/70  dark:hover:bg-primary transition-all" size="sm">CV</Button>
               </Link>
               <Link href="https://github.com/sanjayvjacob" target="_blank" rel="noopener noreferrer">
-              <RiGithubFill className="text-primary dark:text-white/70 text-[35px] dark:hover:text-primary transition-all"/></Link>
+              <RiGithubFill className="text-primary dark:text-white/70 text-[40px] dark:hover:text-primary transition-all"/></Link>
               <Link href="https://linkedin.com/in/sanjayvjacob" target="_blank" rel="noopener noreferrer">
-              <RiLinkedinBoxFill className="text-primary dark:text-white/70 text-[35px] dark:hover:text-primary transition-all"/></Link>
+              <RiLinkedinBoxFill className="text-primary dark:text-white/70 text-[40px] dark:hover:text-primary transition-all"/></Link>
             </div>
         </div>
         {/* Image */}
