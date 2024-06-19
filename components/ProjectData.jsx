@@ -8,12 +8,12 @@ const projectData = [
     image: '/work/urbanattire.png'
   },
   {
-    name: "Hotely",
-    description: "Hotely is a hotel booking platform intended for people who would like to book hotels all around the world. ",
+    name: "BookMyStay",
+    description: "BookMyStay is a hotel booking platform intended for people who would like to book hotels all around the world. ",
     category: 'next js',
-    link: "https://hotely-next.vercel.app/",
+    link: "https://bookmystay-next.vercel.app/",
     github: "https://github.com/sanjayvjacob/Hotely-next.git",
-    image: '/work/hotely.png'
+    image: '/work/bookmystay.png'
   },
   {
     name: "Ascend Strategies",
