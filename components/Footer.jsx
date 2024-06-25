@@ -15,7 +15,7 @@ const Footer = () => {
           />
           {/* copyright */}
           <div className="text-muted-foreground xl:text-[20px]">
-          &copy; 2024 Sanjay Jacob  <span className="ml-2">•</span>
+          &copy; {new Date().getFullYear()} Sanjay Jacob  <span className="ml-2">•</span>
           <span className="relative inline-block hover:text-[#53c28b] group ml-3">
           Colophon
           <span className="invisible w-[270px] bg-[#bbb] text-[#111] text-left rounded-[5px] p-[15px_25px] absolute z-10 bottom-[125%] 
