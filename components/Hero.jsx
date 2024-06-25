@@ -8,6 +8,7 @@ const Hero = () => {
 
   const githubUrl = "https://github.com/sanjayvjacob";
   const linkedinUrl = "https://linkedin.com/in/sanjayvjacob";
+  const cv = "/cv.pdf";
 
   return (
     <section className="py-10 xl:py-22 h-full xl:pt-26">
@@ -19,7 +20,7 @@ const Hero = () => {
 
         {/* Button & Socials*/}
         <div className="flex items-center justify-center xl:justify-start xl:flex-row gap-y-3 gap-x-3 mx-auto xl:mx-0">
-              <Link href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+              <Link href={cv} target="_blank" rel="noopener noreferrer">
               <Button className="border-2 border-background text-background text-lg dark:bg-white/70  dark:hover:bg-primary transition-all" size="sm">CV</Button>
               </Link>
               <Link href={githubUrl} target="_blank" rel="noopener noreferrer">
