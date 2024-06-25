@@ -3,9 +3,14 @@ import { Button } from "./ui/button"
 import { RiArrowDownSLine } from 'react-icons/ri';
 import DevImg from "./DevImg";
 import { RiLinkedinBoxFill, RiGithubFill } from 'react-icons/ri'
+
 const Hero = () => {
+
+  const githubUrl = "https://github.com/sanjayvjacob";
+  const linkedinUrl = "https://linkedin.com/in/sanjayvjacob";
+
   return (
-    <section className="py-10 xl:py-22 h-full xl:pt-26 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
+    <section className="py-10 xl:py-22 h-full xl:pt-26">
     <div className="container mx-auto">
       <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
         <div className="order-2 xl:order-none text-center xl:text-left">
@@ -17,9 +22,9 @@ const Hero = () => {
               <Link href="/cv.pdf" target="_blank" rel="noopener noreferrer">
               <Button className="border-2 border-background text-background text-lg dark:bg-white/70  dark:hover:bg-primary transition-all" size="sm">CV</Button>
               </Link>
-              <Link href="https://github.com/sanjayvjacob" target="_blank" rel="noopener noreferrer">
+              <Link href={githubUrl} target="_blank" rel="noopener noreferrer">
               <RiGithubFill className="text-primary dark:text-white/70 text-[40px] dark:hover:text-primary transition-all"/></Link>
-              <Link href="https://linkedin.com/in/sanjayvjacob" target="_blank" rel="noopener noreferrer">
+              <Link href={linkedinUrl} target="_blank" rel="noopener noreferrer">
               <RiLinkedinBoxFill className="text-primary dark:text-white/70 text-[40px] dark:hover:text-primary transition-all"/></Link>
             </div>
         </div>
@@ -41,3 +46,4 @@ const Hero = () => {
 }
 
 export default Hero
+
