@@ -30,12 +30,12 @@ const Hero = () => {
             </div>
         </div>
         {/* Image */}
-        {/* <div className="order-1 xl:order-none mb-8 xl:mb-0">
+        <div className="order-1 xl:order-none mb-8 xl:mb-0">
           <DevImg 
           containerStyles='bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom'
           imgSrc='/hero/developer.png'
           />
-        </div> */}
+        </div>
       </div>
       {/* Icons */}
       <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce">
