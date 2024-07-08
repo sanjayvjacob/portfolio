@@ -16,6 +16,10 @@ const skillData = [
     imgPath: "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg", 
     name: "React" 
   },
+  // { 
+  //   imgPath: "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/angularjs-colored.svg", 
+  //   name: "Angular" 
+  // },
   { 
     imgPath: "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored-dark.svg", 
     name: "Next.js" 
